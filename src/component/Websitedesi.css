@@ -1,0 +1,153 @@
+.Websitedesign{
+  background-color: #1c1e22;
+}
+.navbar-expand-lg{
+    height: 50px;
+}
+/* .main{
+    background-color: #1c1e22;
+    background-color: #ffffff;
+} */
+.well {
+    background-color: #a4fd25;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: #a4fd25;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.info a{
+    text-decoration: none;
+    /* color: #ffffff; */
+    font-weight: 500; 
+    padding:10px ;
+}
+.right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------------------------cards------------------------------------------ */
+.Websitedesing-panel2-heading{
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    /* background-color: #121212; */
+  }
+  
+  @media (max-width: 768px) {
+    .team-section {
+      flex-direction: column;
+    }
+  }
+  
+  .team-member-web {
+    /* text-align: center; */
+    /* color: #ffcc00; */
+    background-color: #333;
+    margin: 0 20px;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 20px;
+    border: 1px solid #a4fd25;
+    color: #ffffff;
+  }
+
+  
+  .team-member-web h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .team-member-web p {
+    /* font-size: 01; */
+    font-weight: normal
+    /* color: #a4fd25; */
+  }
+  .points{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 800;
+  }
+  /* ------------------------------------------panel-3----------------------------------------- */
+  .points{
+    color: #fff;
+  }
+  /* -----------------------------------------PORTFOLIO-------------------------------------------- */
+.team-page {
+    /* background-color: #1c1c1e; */
+    padding: 50px 0;
+    color: white;
+}
+.WBdes-img {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.websitedesign-port-heading{
+  color: #ffffff;
+  font-weight: bold;
+}
+/* ----------------------------------------------------------------client responce-------------------- */
+.websitedesign-section {
+    /* background-color: #1c1c1e; */
+    padding: 50px 0;
+    /* color: white; */
+  }
+  
+  .text-protfolio {
+    color: #a4fd25;
+  }
+  .websitedesign-client-heading{
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .websitedesign-card {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+  }
+  .testimonial-card-head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+  }
+  
+  .testimonial-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+  }
+  .testimonial-card-head h3{
+    margin-left: 10px;
+  }
+  
+  .testimonial-rating {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }

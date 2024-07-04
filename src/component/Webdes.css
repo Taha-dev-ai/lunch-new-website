@@ -1,0 +1,30 @@
+.webdesign{
+  background-color: #1c1e22;
+}
+.custom-grid {
+    padding: 20px;
+  }
+  .webdesign-heading{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 60px;
+  } 
+  .custom-card {
+    /* background-color: #2a2a2a; */
+    background-color: #333;
+    border: 1px solid #a4fd25;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .custom-card .card-img-top {
+    /* height: 300px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .custom-card .card-title {
+    text-align: center;
+    color: #a4fd25;
+  }
+  

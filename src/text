@@ -1,0 +1,62 @@
+<!-- import this lik firs -->
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+<NavDropdown title="Link" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action5">
+                Something else here
+              </NavDropdown.Item>
+            </NavDropdown>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+
+function NavScrollExample() {
+  return (
+    <Navbar expand="lg" className="navbar-expand-lg">
+      <Container fluid>
+        <Navbar.Brand href="#">Logo</Navbar.Brand>
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px'}}
+            navbarScroll
+          >
+            <Nav.Link href="#action1" className='mx-lg-2'>HOME</Nav.Link>
+            <Nav.Link href="#action2" className='mx-lg-2'>SERVICES+</Nav.Link>
+            <Nav.Link href="#action3" className='mx-lg-2'>PROJECTS+</Nav.Link>
+            <Nav.Link href="#action4" className='mx-lg-2'>BLOG</Nav.Link>
+            <Nav.Link href="#action5" className='mx-lg-2'>ABOUT US</Nav.Link>
+            <Nav.Link href="#action6" className='mx-lg-2'>CONTACT US</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        <nav>
+        <a href="#action7" className='login-button mx-lg-2'>Login</a>
+        <a href="#action8" className='logout-button mx-lg-2'>Logout</a>
+        </nav>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+      </Container>
+
+    </Navbar>
+  );
+}
+
+export default NavScrollExample; -->

@@ -1,0 +1,272 @@
+/* .container-fluid {
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+}
+
+a.mx-lg-2.nav-link, span.mx-lg-2.nav-link {
+  font-weight: 500;
+}
+
+a.Login.button {
+  background-color: #a4fd25;
+  color: #666777;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+a.Login.button:hover {
+  background-color: #7acc06;
+}
+
+button.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+button.navbar-toggler:focus, button.navbar-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.login.navbar-nav {
+  display: block;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #ffcc00;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item .dropdown-menu .nav-link:hover,
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:focus {
+  background-color: #444;
+}
+
+.navbar-nav .nav-link, .navbar-nav .dropdown-toggle {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center; 
+}
+.navbar-nav .dropdown-menu {
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  margin-left: 0.5rem;
+  vertical-align: middle; 
+}
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+ .navbar-expand-lg{
+  background-color: #1c1e22;
+ }
+.container-fluid {
+  /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+  /* background-color: #1c1e22; */
+  background-color: #1c1e22;
+}
+a.mx-lg-2.nav-link, span.mx-lg-2.nav-link {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+a.Login.button {
+  /* background-color: #a4fd25; */
+  color: #74777b;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+a.Login.button:hover {
+  background-color: #a4fd25;
+}
+button.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  background-color: #a4fd25;
+  margin-left: 10px;
+}
+
+button.navbar-toggler:focus, button.navbar-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+.login.navbar-nav {
+  display: block;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav .nav-link.active,.navbar-nav .nav-link.show {
+  font-weight: bold;
+  color: #a4fd25;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active{
+  color: #a4fd25;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-item:focus {
+  background-color: #444;
+  color: #a4fd25;
+}
+
+/* Ensuring all nav links are aligned properly */
+.navbar-nav .nav-link, .navbar-nav .dropdown-toggle {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center; /* Vertically centers the text within the nav item */
+}
+
+/* Ensuring the dropdown menu is properly aligned and styled */
+.navbar-nav .dropdown-menu {
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 0;
+}
+
+/* Additional styling to make sure the caret (arrow) is aligned properly */
+.navbar-nav .dropdown-toggle::after {
+  /* margin-left: 0.5rem; */
+  vertical-align: middle;
+   /* Vertically aligns the caret */
+   color: #ffffff;
+   margin-right: 0.5rem;
+}
+
+/* Custom styling for the dropdown items */
+.navbar-nav .dropdown-menu .nav-link {
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.navbar-nav .dropdown-menu .nav-link:hover {
+  background-color: #444;
+}
+.dropdown-menu{
+  --bs-dropdown-spacer:10rem;
+  --bs-dropdown-min-width:0;
+  --bs-dropdown-padding-x:none;
+}
+.offcanvas-header{
+  background-color: #1c1e22;
+  color: #ffffff;
+}
+.offcanvas-header .btn-close{
+  color: #ffffff;
+  background-color: #ffffff;
+}
+.offcanvas-body{
+  background-color: #1c1e22;
+}
+
+
+
+/* ---------------------BUTTON---------------------------------------------------- */
+.Nv-button {
+  /* --color: #a4fd25; */
+  padding: 0.3em 0.8em;
+  background-color: transparent;
+  border-radius: 1.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  text-decoration: none;
+  background-color:#a4fd25 ;
+ }
+ 
+ .Nv-button::before, .Nv-button::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+ }
+ 
+ .Nv-button::before {
+  top: -1em;
+  left: -1em;
+ }
+ 
+ .Nv-button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+ }
+ 
+ .Nv-button:hover::before, .Nv-button:hover::after {
+  height: 410px;
+  width: 410px;
+ }
+ 
+ .Nv-button:hover {
+  color: rgb(10, 25, 30);
+ }
+ 
+ .Nv-button:active {
+  filter: brightness(.8);
+ }
+
+
+
+

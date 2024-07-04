@@ -1,0 +1,70 @@
+/* ------------------------------------HERO-------------------------- */
+.navbar-expand-lg{
+    height: 50px;
+}
+/* .main{
+    background-color: #1c1e22;
+    background-color: #ffffff;
+} */
+ .about{
+    background-color: #1c1e22;
+ }
+.well {
+    background-color: #a4fd25;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: #a4fd25;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.info a{
+    text-decoration: none;
+    /* color: #ffffff; */
+    font-weight: 500; 
+    padding:10px ;
+}
+.right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+/* .row{
+    height: 80vh;
+} */
+/* .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+ /* -----------------------------------panel2----------------------------------- */
+ .image img{
+    margin-top: 70px;
+ }
+.panel2-about-info h1{
+    color: #ffffff;
+    font-weight: bold;
+}
+.panel2-about-info p{
+    color: #74777b;
+}
+/* -----------------------------------------------panel3----------------------------------- */
+.about-panel3-info h1{
+    color: #ffffff;
+    font-weight: bold;
+}
+.about-panel3-info p{
+    color: #74777b;
+}
+.panel3-buttom-info h2{
+    color: #ffffff;
+}

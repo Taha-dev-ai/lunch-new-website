@@ -1,0 +1,39 @@
+.vedios{
+  background-color: #1c1e22;
+}
+.video-grid {
+    padding: 20px;
+  }
+.vedio-heading{
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+  
+  .video-card {
+    position: relative;
+    background-color: #2a2a2a;
+    border: 1px solid #a4fd25;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .video-frame {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    pointer-events: none;
+  }
+  
+  .video-title {
+    text-align: center;
+    color: #a4fd25;
+    padding: 10px 0;
+  }
+  
+  .video-card:hover .video-frame {
+    pointer-events: auto;
+  }
+  

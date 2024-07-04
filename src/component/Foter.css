@@ -1,0 +1,71 @@
+footer{
+    background-color: #333;
+}
+.foot{
+    margin-top: 20px;
+}
+.panel1 h1{
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.panel1 h4{
+    padding-top: 2;
+    font-weight: bold;
+    color: #ffffff;
+}
+.panel1 p{
+    color: #333;
+    font-weight: bold;
+    color: #ffffff;
+}
+.panel2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.panel2 h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+/* .panel2 .nav-link{ */
+.panel2 .nav-link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
+}
+.down-foot{
+    /* width: 50px; */
+    border-top:1px solid #a4fd25;
+}
+
+.down-foot p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.upward{
+        /* height: 100%; */
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        /* justify-content: end; */
+}
+.upward button{
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a4fd25;
+}
+.upward button:hover{
+    background-color: #81d808; 
+}
+.phono svg{
+    color: #a4fd25;
+}

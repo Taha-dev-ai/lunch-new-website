@@ -1,0 +1,225 @@
+/* ----------------------HERO SECTION-------------------------------------- */
+/* .main{
+    background-color: #1c1e22;
+    background-color: #ffffff;
+} */
+ .contact-info{
+  background-color: #1c1e22;
+  border: none;
+ }
+.well {
+    background-color: #a4fd25;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: #a4fd25;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.info a{
+    text-decoration: none;
+    /* color: #ffffff; */
+    font-weight: 500; 
+    padding:10px ;
+}
+.right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+/* .row{
+    height: 80vh;
+} */
+/* .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+
+  /* ------------------------------------------------panel2--------------------------- */
+  .testimonials-section {
+    /* background-color: #1c1c1e; */
+    padding: 50px 0;
+    /* color: white; */
+  }
+  
+  .contect {
+    color: #a4fd25;
+    font-size: 30px;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+.testimonial-card-panel{
+    /* background-color: #2d2d2d; */
+    border: 1px solid #a4fd25;
+    /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+  }
+  .testimonial-card-head{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+  }
+  
+  .testimonial-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+  }
+  .testimonial-card h5{
+    margin-left: 10px;
+  }
+ .testimonial-nav {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+ 
+  /* -------------------------------------------panel3------------------------------------ */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #a4fd25;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    /* margin-top: 20px; */
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    /* color: #00bfff; */
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid #a4fd25;
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:focus + span,
+  .form label .input:valid + span {
+    top: 2px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: medium;
+  }
+  
+  
+  /* @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  } */
+  .contact{
+    /* border: 2px solid #a4fd25; */
+    border-radius: 10px;
+    /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+    color: #ffffff;
+  }
+.section-title h1{
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.contect-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.contect-icon svg{
+  font-size:xx-large;
+}
+
+  /* -------------------------------------------------------------------------------------------------------- */
+.control-group input{
+    border: 1px solid #a4fd25;
+    color: #ffffff;
+  }
+  .control-group textarea{
+  color: #ffffff;
+    border: 1px solid #a4fd25;
+  }
+  .form-control:focus{
+    color: #ffffff;
+    border: 1px solid #a4fd25;
+    box-shadow: none;
+  }
+/* Custom styles for input placeholders */
+.form-control::placeholder {
+  color: white; /* Change the color to white */
+  opacity: 1; /* Ensure the opacity is fully visible */
+}
+
+/* Optional: Add styles for browsers that use the `::-webkit-input-placeholder` pseudo-element */
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+/* Optional: Add styles for browsers that use the `:-moz-placeholder` pseudo-element */
+.form-control:-moz-placeholder {
+  color: white;
+}
+
+/* Optional: Add styles for browsers that use the `::-moz-placeholder` pseudo-element */
+.form-control::-moz-placeholder {
+  color: white;
+}
+
+/* Optional: Add styles for browsers that use the `:-ms-input-placeholder` pseudo-element */
+.form-control:-ms-input-placeholder {
+  color: white;
+}
+  

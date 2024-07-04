@@ -1,0 +1,47 @@
+.responce-section {
+  background-color: #1c1e22;
+  padding: 50px 0;
+  color: white;
+}
+
+.rep-heading {
+  color: white;
+  font-weight: bold;
+}
+
+.testimonial-car {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+}
+.testimonial-card-head{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap:10px;
+}
+
+.testimonial-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+.testimonial-card h5{
+  margin-left: 10px;
+}
+
+.testimonial-rate {
+  color: #ffc107;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.testimonial-nav {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0 10px;
+}

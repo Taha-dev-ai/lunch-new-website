@@ -1,0 +1,49 @@
+.home-hero{
+    background-color: #1c1e22;
+}
+.home-well {
+    background-color: #a4fd25;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.head-h h1{
+    color: #ffffff;
+}
+.home-hro-para p{
+    color: #74777b;
+    font-size: 20px;
+    line-height: 30px;
+}
+.hero-info {
+    background-color: #98FD25;
+    /* background-color: #a4fd25; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-info a{
+    text-decoration: none;
+    color: #1c1e22;
+    font-weight: 700;
+    padding:10px ;
+}
+.right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+/* .row{
+    height: 80vh;
+} */
+/* .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */

@@ -1,0 +1,68 @@
+.main-post-page{
+  background-color: #1c1e22;
+}
+.post-page {
+    display: flex;
+    justify-content: space-around; /* Distribute cards evenly */
+    flex-wrap: wrap; /* Wrap cards if the screen is too small */
+    gap: 20px; /* Space between cards */
+    padding: 20px; 
+  }
+  
+  .card {
+    background: #2d2d2d;
+    /* border: 1px solid white; */
+    /* box-shadow: 2px 7px 21px #26ff00; */
+    /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    /* font-weight: bolder; */
+    /* color: black; */
+    /* color: #ac1414; */
+    /* border: 1px solid #26ff00; */
+  }
+  
+  .card:hover {
+    box-shadow: 2px 7px 21px #a4fd25;
+    border: 1px solid #a4fd25;
+    transform: scale(1.05);
+    border-radius: 7px;
+  }
+  
+  /* .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  } */
+
+  @media (min-width: 768px) {
+    .row-cols-md-3>*{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media (min-width: 600px) {
+    .row-cols-md-3>*{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media (min-width: 200px) {
+    .row-cols-md-3>*{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  .post-heading-text{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    font-weight: bold;
+  }
+.card-body{
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}

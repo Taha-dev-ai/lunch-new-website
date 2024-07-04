@@ -1,0 +1,32 @@
+.main-Mar{
+    margin-top: 20px;
+    background-color: #1c1e22;
+    color: #ffffff;
+    /* border-bottom: 1px solid #ffd500; */
+}
+.left-Mar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.left-Mar img{
+    height: 300px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+/* ---------------left end------------------------ */
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Mar-Chos-para{
+    line-height: 30px;
+}
